@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>quetes</title>
+
+    <link href="quetes.css" rel="stylesheet" />
+    <script src="quetes.js"></script>
+</head>
+<body>
+    <div class="quetes fragment">
+        <header class="page-header" aria-label="Header content" role="banner">
+            <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Welcome to quetes</span>
+            </h1>
+        </header>
+        <section class="page-section" aria-label="Main content" role="main">
+            <!-- Tableau trop grand, pour tricher:
+                inline-block ne renvoie pas les div à la liste et pas la bonne largeur;
+                inline-flex, -ms-inline-flexbox renvoient à la ligne mais avec mauvaise largeur;
+                inline, inline-flexbox et inline-grid ne renvoient pas à la ligne mais avec la bonne largeur;
+                none et table-column renvoie un écran noir ...
+
+                overflow-x: scroll; overflow-y: hidden;
+                -ms-grid-columns: auto 100px 1fr 2fr; -ms-grid-rows: 50px auto"
+                -->
+
+            <div class="divHorizontalScrollingDisplay">
+                <table style="width: 100px; margin: 2px; border: 1px solid gray; -ms-grid-column: 1; -ms-grid-row: 1">
+                    <tr>
+                        <th> TH1 </th>
+                        <th> TH2 </th>
+                    </tr>
+                    <tr>
+                        <td> TD1 </td>
+                        <td> TD2 </td>
+                    </tr>
+                </table>
+
+                <table id="tableQuests" style="margin: 2px; border: 1px solid gray; -ms-grid-column: 2; -ms-grid-row: 1">
+                    <caption><h2>Quêtes officielles</h2></caption>
+                    <tr>
+                        <th>Quête</th>
+                        <th>Map</th>
+                        <th>Statut</th>
+                        <th colspan="4"> Héros </th>
+                    </tr>
+                    <tr>
+                        <td>L'épreuve</td>
+                        <td> Catacombes de Felmarg </td>
+                        <td><img src="/images/quests_img-check.png" /> </td>
+                        <td class="check"> Helga  </td>
+                        <td><a href="/pages/persos/persos.html"> Eneeria </a></td>
+                        <td> Athanor </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>La Délivrance de Sir Ragnard</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Le Repaire du Seigneur de la Guerre des Orcs</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> L'Or du Prince Magnus</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> Le Labyrinthe de Melar</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> L'Héritage du Seigneur de la Guerre des Orcs</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> Le Chasseur de Pierres</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> Le Mage du Feu</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> Le Piège</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> Le Château des Mystères</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> Le Bastion du Chaos</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> Barak Tor - Sépulture du Seigneur Sorcier</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> La Quête du Fer de l'Esprit</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> Retour à Barak Tor</td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <!-- Tableau des quetes perso -->
+                <table id="tableQuests" , style="margin: 2px; border: 1px solid gray; -ms-grid-column: 3; -ms-grid-row: 1">
+                    <caption><h2>Quêtes perso</h2></caption>
+                    <tr>
+                        <th>Quête</th>
+                        <th>Map</th>
+                        <th>Statut</th>
+                        <th colspan="4"> Héros </th>
+                    </tr>
+                    <tr>
+                        <td> ??? </td>
+                        <td> ??? </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <div style=" background-color: pink; -ms-grid-column: 4; -ms-grid-row: 1; width: 100px;">
+                    <p style="  "> Test 1</p>
+                    <p> Test 2</p>
+                </div>
+                <p style="margin: 2px; border: 1px solid gray;                 -ms-grid-column: 5;                 -ms-grid-row: 1">
+                    Child element 4
+                </p>
+            </div>
+    <!-- Début de l'impro MarieJeammesque -->
+    <div style="height: 95%; width: 400%; overflow-x: scroll; overflow-y: hidden; display: inline-flex;"></div>
+    
+    </section>
+    </div>
+</body>
+</html>

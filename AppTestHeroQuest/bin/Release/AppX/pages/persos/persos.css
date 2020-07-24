@@ -1,0 +1,55 @@
+﻿.page section {
+	margin: auto 120px;
+}
+
+.phone .page .page-section {
+	margin: auto 24px;
+}
+
+.phone .page .page-header .titlearea {
+	-ms-grid-column: 1;
+	margin-top: 37px;
+	margin-left: 24px;
+	font-size: 28pt;
+	width: calc(100vw - 20px);
+}
+
+.phone .page .back-button {
+	display: none;
+}
+
+.fragment {
+	-ms-grid-columns: 1fr;
+	-ms-grid-rows: 128px 1fr;
+	display: -ms-grid;
+	height: 100%;
+	width: 100%;
+}
+
+.fragment section[role=main] {
+		-ms-grid-row: 2;
+		height: 100%;
+}
+
+/*Classe pour gérer les fiches (tableaux) de personnages:
+  Trouver comment les mettres cote (à) cote pour contourner le remplissage horizontal des tableaux de personnages */
+table#Chars th {
+    color: orange;
+    border: 2px solid black;
+}
+
+table#Chars td {
+    height: 30px;
+    width: 200px;
+    padding: 1px 1px 1px 20px;  /*marge dans la case: haut droite bas gauche*/
+    border-spacing: 20px;
+}
+
+
+table#Chars td:nth-child(even) {
+    background-color: black;
+}
+table#Chars td:nth-child(odd) {
+    background-color: grey; 
+    border: 2px solid black; 
+}

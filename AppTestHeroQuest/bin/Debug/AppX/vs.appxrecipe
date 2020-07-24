@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC-MARIE</Machine>
+    <WindowsUser>Eneeria</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>bfbc19c8-9f19-4f93-8748-193611a3c5bb</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>2B1FF64522883E74D9AAC7C32CA08364DDD4C31DF83D34C15ECD9794CD8FB7E7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>bfbc19c8-9f19-4f93-8748-193611a3c5bb_1.0.0.0_neutral__h1070c2rf21n8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>bfbc19c8-9f19-4f93-8748-193611a3c5bb_h1070c2rf21n8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>bfbc19c8-9f19-4f93-8748-193611a3c5bb</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Eneeria</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-24T14:31:27.893</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2016-07-24T13:53:12.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\campaign\campaign.css">
+      <PackagePath>pages\campaign\campaign.css</PackagePath>
+      <Modified>2015-07-03T09:47:34.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2016-07-24T13:15:22.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\ideas\ideas.css">
+      <PackagePath>pages\ideas\ideas.css</PackagePath>
+      <Modified>2015-06-11T09:12:59.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\maps\maps.css">
+      <PackagePath>pages\maps\maps.css</PackagePath>
+      <Modified>2015-06-01T21:16:55.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\newcharacter\newcharacter.css">
+      <PackagePath>pages\newcharacter\newcharacter.css</PackagePath>
+      <Modified>2016-07-24T13:40:29.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\persos\persos.css">
+      <PackagePath>pages\persos\persos.css</PackagePath>
+      <Modified>2016-07-24T14:48:30.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\quetes\quetes.css">
+      <PackagePath>pages\quetes\quetes.css</PackagePath>
+      <Modified>2015-06-11T07:50:38.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\treasures\treasures.css">
+      <PackagePath>pages\treasures\treasures.css</PackagePath>
+      <Modified>2015-05-26T20:26:27.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\character\barbare.jpg">
+      <PackagePath>images\character\barbare.jpg</PackagePath>
+      <Modified>2015-05-26T19:06:49.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\character\barbareveteran.jpg">
+      <PackagePath>images\character\barbareveteran.jpg</PackagePath>
+      <Modified>2015-05-26T20:21:01.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\character\elfe.jpg">
+      <PackagePath>images\character\elfe.jpg</PackagePath>
+      <Modified>2015-05-26T19:07:04.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\character\magicienne.jpg">
+      <PackagePath>images\character\magicienne.jpg</PackagePath>
+      <Modified>2015-05-26T20:46:19.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\character\maitredarmes.jpg">
+      <PackagePath>images\character\maitredarmes.jpg</PackagePath>
+      <Modified>2015-05-26T20:38:35.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\character\mercenaire.jpg">
+      <PackagePath>images\character\mercenaire.jpg</PackagePath>
+      <Modified>2015-05-26T20:41:07.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\character\paladin.jpg">
+      <PackagePath>images\character\paladin.jpg</PackagePath>
+      <Modified>2016-07-24T13:36:09.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\character\renegate.jpg">
+      <PackagePath>images\character\renegate.jpg</PackagePath>
+      <Modified>2015-05-26T20:13:02.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\character\voleur.jpg">
+      <PackagePath>images\character\voleur.jpg</PackagePath>
+      <Modified>2015-05-26T20:24:34.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <Modified>2014-06-02T15:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\logo\150x150.png">
+      <PackagePath>images\logo\150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-27T14:51:46.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\logo\310x150.png">
+      <PackagePath>images\logo\310x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-27T14:54:50.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\logo\310x310.png">
+      <PackagePath>images\logo\310x310.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-27T14:51:34.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\logo\620x300.png">
+      <PackagePath>images\logo\620x300.png</PackagePath>
+      <Modified>2015-05-27T14:57:32.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\logo\70x70.png">
+      <PackagePath>images\logo\70x70.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-27T14:55:22.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\logo\logo310x310b.png">
+      <PackagePath>images\logo\logo310x310b.png</PackagePath>
+      <Modified>2015-05-27T14:48:05.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\quests_img-check.png">
+      <PackagePath>images\quests_img-check.png</PackagePath>
+      <Modified>2015-06-01T22:01:55.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T15:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T15:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T15:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-05-26T12:40:33.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2015-05-24T22:45:37.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\campaign\campaign.js">
+      <PackagePath>pages\campaign\campaign.js</PackagePath>
+      <Modified>2015-05-27T12:58:27.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2015-06-11T08:09:31.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\ideas\ideas.js">
+      <PackagePath>pages\ideas\ideas.js</PackagePath>
+      <Modified>2015-05-26T21:13:08.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\maps\maps.js">
+      <PackagePath>pages\maps\maps.js</PackagePath>
+      <Modified>2015-05-26T20:11:02.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\newcharacter\newcharacter.js">
+      <PackagePath>pages\newcharacter\newcharacter.js</PackagePath>
+      <Modified>2016-07-24T13:40:29.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\persos\persos.js">
+      <PackagePath>pages\persos\persos.js</PackagePath>
+      <Modified>2015-05-26T12:41:44.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\quetes\quetes.js">
+      <PackagePath>pages\quetes\quetes.js</PackagePath>
+      <Modified>2015-05-27T12:58:47.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\treasures\treasures.js">
+      <PackagePath>pages\treasures\treasures.js</PackagePath>
+      <Modified>2015-06-11T08:08:04.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\campaign\campaign.html">
+      <PackagePath>pages\campaign\campaign.html</PackagePath>
+      <Modified>2015-07-03T16:41:45.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2016-07-24T14:30:02.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2015-06-04T08:47:20.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\ideas\ideas.html">
+      <PackagePath>pages\ideas\ideas.html</PackagePath>
+      <Modified>2015-06-11T09:15:18.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\maps\maps.html">
+      <PackagePath>pages\maps\maps.html</PackagePath>
+      <Modified>2015-06-01T21:18:51.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\newcharacter\newcharacter.html">
+      <PackagePath>pages\newcharacter\newcharacter.html</PackagePath>
+      <Modified>2016-07-24T13:42:14.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\persos\persos.html">
+      <PackagePath>pages\persos\persos.html</PackagePath>
+      <Modified>2016-07-24T14:57:17.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\quetes\quetes.html">
+      <PackagePath>pages\quetes\quetes.html</PackagePath>
+      <Modified>2015-06-11T08:47:33.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\pages\treasures\treasures.html">
+      <PackagePath>pages\treasures\treasures.html</PackagePath>
+      <Modified>2015-06-11T08:07:45.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eneeria\Documents\_Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-07-24T14:31:27.743</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

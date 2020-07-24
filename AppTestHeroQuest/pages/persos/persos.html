@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>page</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="persos.css" rel="stylesheet" />
+    <script src="/pages/persos/persos.js"></script>
+</head>
+<body>
+    <div class="page fragment">
+        <header class="page-header" aria-label="Header content" role="banner">
+            <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Personnages</span>
+            </h1>
+        </header>
+        <section class="page-section" aria-label="Main content" role="main">
+            <p> Liste des personnages vivants et morts, de leur équipement, réalisation et groupe d'aventuriers.</p>
+            <table class="charactersTab" style="float: left;">
+                <tr>
+                    <th>Personnage:</th>
+                </tr>
+                <tr>
+                    <th>Joueur:</th>
+                </tr>
+                <tr>
+                    <th>Classe:</th>
+                </tr>
+                <tr>
+                    <th>Magie:</th>
+                </tr>
+                <tr>
+                    <th> 
+                        <table class="questsTracker">
+                            <tr>
+                                <td style="writing-mode:bt-lr;">
+                                    Stats
+                                </td>
+                                <td>
+                                    Points de corps / d'esprit
+                                    <br /> Dés offensifs
+                                    <br />Dés défensifs
+                                    <br />Dés de déplacement
+                                </td>
+                            </tr>
+
+                        </table>
+                    </th>
+                <tr>
+                    <th style="height: 32px">Quêtes accomplies:</th>
+                </tr>
+                <tr>
+                    <th style="height: 50px">Equipement:</th>
+                </tr>
+                <tr>
+                    <th>Fortune:</th>
+                </tr>
+
+            </table>  
+
+            <!-- Tableau des personnages. Pb, remplissage horizontal. Plusieurs façons de gérer ça:
+            - Tableau de tableaux (dégueulasse, pas testé)
+            - Script qui réorganise le tableau à chaque nouvelle entrée (ajout horizontal sur chaque colonne)
+            - Plusieurs tableaux et CSS qui les juxtapose cote (à) cote (option choisie)
+            -->
+            <div class="divHorizontalScrollingDisplay">
+                <table class="charactersTab" style="-ms-grid-column: 1; -ms-grid-row: 1">
+                    <tr>
+                        <th>Eneeria</a></th>
+                    </tr>
+                    <tr>
+                        <td>Marie</td>
+                    </tr>
+                    <tr>
+                        <td>Elfe</td>
+                    </tr>
+                    <tr>
+                        <td>Eau</td>
+                    </tr>
+                    <tr>
+                        <td> 6 / 6 
+                        <br /> 2
+                        <br /> 2 (+ 2)
+                        <br /> 2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="questsTracker">
+                                <tr>
+                                    <td class="questDone"> 1 </td>
+                                    <td class="questDone"> 2 </td>
+                                    <td> 3 </td>
+                                    <td> 4 </td>
+                                    <td> 5 </td>
+                                    <td> 6 </td>
+                                    <td> 7 </td>
+                                </tr>
+                                <tr>
+                                    <td> 8 </td>
+                                    <td> 9 </td>
+                                    <td> 10 </td>
+                                    <td> 11 </td>
+                                    <td> 12 </td>
+                                    <td> 13 </td>
+                                    <td> 14 </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Bouclier</li>
+                                <li>Casque</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>35 pièces</td>
+                    </tr>
+                </table>
+                <table class="charactersTab" style="-ms-grid-column: 2; -ms-grid-row: 1">
+                    <tr>
+                        <th>Helga de Gern</th>
+                    </tr>
+                    <tr>
+                        <td>Elodie</td>
+                    </tr>
+                    <tr>
+                        <td>Barbare</td>
+                    </tr>
+                    <tr>
+                        <td> - </td>
+                    </tr>
+                    <tr>
+                        <td> 8 / 2
+                        <br/> 3
+                        <br /> 2
+                        <br /> 2 </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="questsTracker">
+                                <tr>
+                                    <td class="questDone"> 1 </td>
+                                    <td> 2 </td>
+                                    <td> 3 </td>
+                                    <td> 4 </td>
+                                    <td> 5 </td>
+                                    <td> 6 </td>
+                                    <td> 7 </td>
+                                </tr>
+                                <tr>
+                                    <td> 8 </td>
+                                    <td> 9 </td>
+                                    <td> 10 </td>
+                                    <td> 11 </td>
+                                    <td> 12 </td>
+                                    <td> 13 </td>
+                                    <td> 14 </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Gourdin</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>35 pièces</td>
+                    </tr>
+                </table>
+                <table class="charactersTab" style="-ms-grid-column: 3; -ms-grid-row: 1">
+                    <tr>
+                        <th>Athanor</th>
+                    </tr>
+                    <tr>
+                        <td>Gorka</td>
+                    </tr>
+                    <tr>
+                        <td>Enchanteur</td>
+                    </tr>
+                    <tr>
+                        <td>Air / Eau / Terre</td>
+                    </tr>
+                    <tr>
+                        <td> 4 / 6
+                        <br /> 1
+                        <br /> 2
+                        <br /> 2 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="questsTracker">
+                                <tr>
+                                    <td class="questDone"> 1 </td>
+                                    <td> 2 </td>
+                                    <td> 3 </td>
+                                    <td> 4 </td>
+                                    <td> 5 </td>
+                                    <td> 6 </td>
+                                    <td> 7 </td>
+                                </tr>
+                                <tr>
+                                    <td> 8 </td>
+                                    <td> 9 </td>
+                                    <td> 10 </td>
+                                    <td> 11 </td>
+                                    <td> 12 </td>
+                                    <td> 13 </td>
+                                    <td> 14 </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 50px;">
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>135 pièces</td>
+                    </tr>
+                </table>
+                <table class="charactersTab" style="-ms-grid-column: 4; -ms-grid-row: 1">
+                    <tr>
+                        <th>Cayzel</th>
+                    </tr>
+                    <tr>
+                        <td>Aurélien</td>
+                    </tr>
+                    <tr>
+                        <td>???</td>
+                    </tr>
+                    <tr>
+                        <td>???</td>
+                    </tr>
+                    <tr>
+                        <td> ? / ?
+                        <br /> ?
+                        <br /> ?
+                        <br /> ?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="questsTracker">
+                                <tr>
+                                    <td class="questDone"> 1 </td>
+                                    <td class="questDone"> 2 </td>
+                                    <td class="questDone"> 3 </td>
+                                    <td class="questDone"> 4 </td>
+                                    <td class="questDone"> 5 </td>
+                                    <td class="questDone"> 6 </td>
+                                    <td class="questDone"> 7 </td>
+                                </tr>
+                                <tr>
+                                    <td class="questDone"> 8 </td>
+                                    <td class="questDone"> 9 </td>
+                                    <td class="questDone"> 10 </td>
+                                    <td class="questDone"> 11 </td>
+                                    <td class="questDone"> 12 </td>
+                                    <td class="questDone"> 13 </td>
+                                    <td class="questDone"> 14 </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 50px;">  ??? </td>
+                    </tr>
+                    <tr>
+                        <td> ??? </td>
+                    </tr>
+                </table>
+                <button class="charactersTab" style="width: 245px; -ms-grid-column: 5; -ms-grid-row: 1">
+                    Ajouter un nouveau personnage!
+                </button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

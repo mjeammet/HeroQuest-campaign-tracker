@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>page</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/persos/persos.css" rel="stylesheet" />
+    <script src="/pages/persos/persos.js"></script>
+</head>
+<body>
+    <div class="page fragment">
+        <header class="page-header" aria-label="Header content" role="banner">
+            <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Personnages</span>
+            </h1>
+        </header>
+        <section class="page-section" aria-label="Main content" role="main">
+            <p> Liste des personnages vivants et morts, de leur équipement, réalisation et groupe d'aventuriers.</p>
+            <!-- Tableau des personnages. Pb, remplissage horizontal. Plusieurs façons de gérer ça:
+                - Tableau de tableaux (dégueulasse, pas testé)
+                - Script qui réorganise le tableau à chaque nouvelle entrée (ajout horizontal sur chaque colonne)
+                - Plusieurs tableaux et CSS qui les juxtapose cote (à) cote
+                -->
+            
+            <table id="Chars">
+                <tr>
+                    <th>Personnage:</th>
+                    <th>Eneeria</th>
+                    <th>Helga de Gern</th>
+                    <th>Athanor</th>
+                </tr>
+                <tr>
+                    <th>Classe:</th>
+                    <td>Elfe</td>
+                    <td>Barbare</td>
+                    <td>Enchanteur</td>
+                </tr>
+                <tr>
+                    <th>Joueur:</th>
+                    <td>Marie</td>
+                    <td>Elodie</td>
+                    <td>Gorka</td>
+                </tr>
+                <tr>
+                    <th>Quêtes accomplies:</th>
+                    <td>
+                        <li>Catacombes de Felmargs</li>
+                    </td>
+                    <td><li>Catacombes de Felmargs</li></td>
+                    <td><li>Catacombes de Felmargs</li></td>
+                </tr>
+                <tr>
+                    <th>Equipement:</th>
+                    <td><li>Bouclier</li></td>
+                    <td><li>Gourdin</li></td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <th>Fortune:</th>
+                    <td>35 pièces</td>
+                    <td>35 pièces</td>
+                    <td>135 pièces</td>
+                </tr>
+            </table>
+            <br />
+            <button id="newChar">Ajouter un nouveau personnage!</button> 
+    </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿.homepage section[role=main] {
+    margin: auto 120px;
+}
+
+/* Comment "factoriser" les styles? */
+
+.links {
+    border: 2px solid black;
+    height: 400px;
+    width: 150px; 
+    padding: 0px 15px 0px 15px;
+    display: inline-block;
+}
+
+    .links a {
+        color: #000000;
+        text-align: center; 
+        font: bold;
+    }
+
+

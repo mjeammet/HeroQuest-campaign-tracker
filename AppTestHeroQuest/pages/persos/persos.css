@@ -1,0 +1,63 @@
+﻿.page section {
+	margin: auto 120px;
+}
+
+.fragment {
+	-ms-grid-columns: 1fr;
+	-ms-grid-rows: 128px 1fr;
+	display: -ms-grid;
+	height: 100%;
+	width: 100%;
+}
+
+.fragment section[role=main] {
+		-ms-grid-row: 2;
+		height: 100%;
+}
+
+/*Classe pour gérer les fiches (tableaux) de personnages:
+  Trouver comment les mettres cote (à) cote pour contourner le remplissage horizontal des tableaux de personnages */
+.charactersTab {
+    width: 100%;
+    width: 250px ;
+    border: 2px solid black;
+}
+
+    .charactersTab th {
+        color: orange;
+        height: 30px;
+        /*padding: 5px 5px 5px 5px;*/
+        margin: 2px;
+        border: 2px solid grey;
+    }
+
+    .charactersTab td { 
+        height: 30px;
+        /*padding: 5px 5px 5px 5px;  marge dans la case: haut droite bas gauche*/
+        margin: 2px;
+        border: 2px solid grey;
+        border-collapse: collapse; 
+    }
+
+    .charactersTab .questsTracker td{
+        height: 16%;
+        width: 100px;
+        border: none;
+        /*
+        
+        padding: 1px 1px 1px 1px;
+        */
+    }
+
+    .charactersTab .questsTracker .questDone {
+        background-color: saddlebrown; 
+    }
+
+
+
+
+/* Plus appliqué car les personnages sont répartis dans des tableaux individuels 
+.charactersTab td:nth-child(odd) {
+    background-color: grey;
+}
+*/

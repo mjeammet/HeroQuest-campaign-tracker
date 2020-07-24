@@ -1,0 +1,15 @@
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bin\Release\ReverseMap\resources.pri
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bin\Release\AppxManifest.xml
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bin\Release\AppTestHeroQuest.build.appxrecipe
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Release\priconfig.xml
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Release\priconfig.xml.intermediate
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Release\layout.resfiles
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Release\layout.resfiles.intermediate
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Release\resources.resfiles
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Release\resources.resfiles.intermediate
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Release\pri.resfiles
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Release\pri.resfiles.intermediate
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Release\qualifiers.txt
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Release\qualifiers.txt.intermediate
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Eneeria\Documents\Créations\Programmation\Visual Studio 2013\Projects\AppTestHeroQuest\AppTestHeroQuest\bld\Release\ProjectArchitectures.txt

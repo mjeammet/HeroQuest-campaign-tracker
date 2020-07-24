@@ -1,0 +1,19 @@
+﻿.homepage section[role=main] {
+    margin: auto 120px;
+}
+
+.links {
+    border: 3px solid black;
+    height: 50%;
+    width:  10%; 
+    padding: 0px 15px 0px 15px;
+    display: inline-block;
+}
+
+    .links a {
+        color: #000000;
+        text-align: center; 
+        font: bold;
+    }
+
+

@@ -1,0 +1,77 @@
+﻿.quetes section {
+    margin: auto 120px;
+    /*
+    height: 100px; 
+    width: 2000px;
+    background-color: pink;
+    overflow:hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+        */
+}
+
+.fragment {
+	-ms-grid-columns: 1fr;
+	-ms-grid-rows: 128px 1fr;
+	display: -ms-grid;
+	height: 100%;
+	width: 100%;
+}
+
+.fragment section[role=main] {
+	-ms-grid-row: 2;
+	height: 100%;
+}
+
+/* Format des tableaux d'id "tableQuests" */
+table#tableQuests {
+    height: 90%; 
+    width: 100%;
+    width: 800px;
+}
+
+table#tableQuests th {
+    border: 2px solid black;
+    font-size: 15px;
+    color: orange; 
+}
+
+table#tableQuests td {
+    height: 10%;
+    padding: 5px 5px 5px 5px;
+    width: auto; 
+}
+
+table#tableQuests img {
+    width:16px;
+    height:16px;
+}
+
+/* Ressources pour windows Phone */
+.phone .quetes .page-section {
+	margin: auto 24px;
+}
+
+.phone .quetes .page-header .titlearea {
+	-ms-grid-column: 1;
+	margin-top: 37px;
+	margin-left: 24px;
+	font-size: 28pt;
+	width: calc(100vw - 20px);
+}
+
+.phone .quetes .back-button {
+	display: none;
+}
+
+.phone .quetes .page-header .titlearea {
+	-ms-grid-column: 1;
+	margin-top: 37px;
+	margin-left: 24px;
+	font-size: 28pt;
+	width: calc(100vw - 20px);
+}
+
+.phone .quetes .back-button {
+	display: none;
+}

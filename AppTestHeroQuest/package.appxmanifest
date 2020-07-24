@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="bfbc19c8-9f19-4f93-8748-193611a3c5bb" Version="1.0.0.0" Publisher="CN=Eneeria" />
+  <Properties>
+    <DisplayName>AppTestHeroQuest</DisplayName>
+    <PublisherDisplayName>Eneeria</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <m2:VisualElements DisplayName="AppTestHeroQuest" Description="AppTestHeroQuest" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\logo\150x150.png" Square30x30Logo="images\SmallLogo.png">
+        <m2:DefaultTile Square70x70Logo="images\logo\70x70.png" Wide310x150Logo="images\logo\310x150.png" Square310x310Logo="images\logo\310x310.png">
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="images\splashscreen.png" />
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="landscape" />
+        </m2:InitialRotationPreference>
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
